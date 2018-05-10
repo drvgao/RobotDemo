@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.3 (Python 3.6.5 on win32)" generated="20180510 15:06:29.230">
+<suite id="s1" name="SampleRobotProj" source="C:\Users\rdurgam\git\SampleRobotProj\SampleRobotProj">
+<suite id="s1-s1" name="Tests" source="C:\Users\rdurgam\git\SampleRobotProj\SampleRobotProj\tests">
+<suite id="s1-s1-s1" name="AmazonTests" source="C:\Users\rdurgam\git\SampleRobotProj\SampleRobotProj\tests\AmazonTests">
+<suite id="s1-s1-s1-s1" name="AmazonTest" source="C:\Users\rdurgam\git\SampleRobotProj\SampleRobotProj\tests\AmazonTests\AmazonTest.robot">
+<kw name="Insert Testing Data" library="Common" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am setting up testing data.</arg>
+</arguments>
+<msg timestamp="20180510 15:06:30.868" level="INFO">I am setting up testing data.</msg>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<kw name="Test kw1" library="Common">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>doing kw1</arg>
+</arguments>
+<msg timestamp="20180510 15:06:30.868" level="INFO">doing kw1</msg>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<kw name="Test kw2" library="Common">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>doing kw2</arg>
+</arguments>
+<msg timestamp="20180510 15:06:30.868" level="INFO">doing kw2</msg>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:30.868"></status>
+</kw>
+<test id="s1-s1-s1-s1-t1" name="Logged out user can search for products">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20180510 15:06:30.868" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<msg timestamp="20180510 15:06:33.897" level="DEBUG">POST http://127.0.0.1:3489/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any"}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY"}}</msg>
+<msg timestamp="20180510 15:06:36.157" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:36.157" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/timeouts/async_script {"ms": 5000.0, "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:36.158" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:36.159" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/timeouts/implicit_wait {"ms": 0.0, "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:36.161" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:36.162" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/url {"url": "about:blank", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:36.202" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:36.202" level="DEBUG">Opened browser with session id 2b024c936cba71a7c8d0cada16c9fc10.</msg>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:36.202"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<msg timestamp="20180510 15:06:36.233" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/window/current/maximize {"windowHandle": "current", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:37.382" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:36.203" endtime="20180510 15:06:37.382"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:37.382"></status>
+</kw>
+<kw name="Search for Products2" library="Amazon">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20180510 15:06:37.382" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<msg timestamp="20180510 15:06:37.382" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/url {"url": "http://www.amazon.com", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:42.845" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:37.382" endtime="20180510 15:06:42.846"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:37.382" endtime="20180510 15:06:42.846"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more</arg>
+</arguments>
+<msg timestamp="20180510 15:06:42.848" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/elements {"using": "xpath", "value": "//*[contains(., 'Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more')]", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:42.885" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:42.848" endtime="20180510 15:06:42.885"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:42.847" endtime="20180510 15:06:42.886"></status>
+</kw>
+<kw name="Search for Products" library="TopNav">
+<kw name="Enter Search Term" library="TopNav">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=twotabsearchtextbox</arg>
+<arg>Ferrari 458</arg>
+</arguments>
+<msg timestamp="20180510 15:06:42.888" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'.</msg>
+<msg timestamp="20180510 15:06:42.888" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/elements {"using": "id", "value": "twotabsearchtextbox", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:42.905" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:42.905" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/element/0.6410821000477627-4/clear {"id": "0.6410821000477627-4", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:42.929" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:42.929" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/element/0.6410821000477627-4/value {"text": "Ferrari 458", "value": ["F", "e", "r", "r", "a", "r", "i", " ", "4", "5", "8"], "id": "0.6410821000477627-4", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:43.050" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:42.887" endtime="20180510 15:06:43.050"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:42.887" endtime="20180510 15:06:43.051"></status>
+</kw>
+<kw name="Submit Search" library="TopNav">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="nav-search"]/form/div[2]/div/input</arg>
+</arguments>
+<msg timestamp="20180510 15:06:43.052" level="INFO">Clicking button 'xpath=//*[@id="nav-search"]/form/div[2]/div/input'.</msg>
+<msg timestamp="20180510 15:06:43.053" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/elements {"using": "xpath", "value": "//*[@id=\"nav-search\"]/form/div[2]/div/input", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:43.072" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:43.072" level="DEBUG">GET http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/element/0.6410821000477627-5/name {"id": "0.6410821000477627-5", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:43.076" level="DEBUG">Finished Request</msg>
+<msg timestamp="20180510 15:06:43.076" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/element/0.6410821000477627-5/click {"id": "0.6410821000477627-5", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:49.490" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:43.051" endtime="20180510 15:06:49.490"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:43.051" endtime="20180510 15:06:49.491"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:42.886" endtime="20180510 15:06:49.491"></status>
+</kw>
+<kw name="Verify Search Completed" library="SearchResults">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>results for "Ferrari 458"</arg>
+</arguments>
+<msg timestamp="20180510 15:06:49.493" level="DEBUG">POST http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10/elements {"using": "xpath", "value": "//*[contains(., 'results for \"Ferrari 458\"')]", "sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:49.531" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:49.492" endtime="20180510 15:06:49.532"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:49.491" endtime="20180510 15:06:49.532"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:37.382" endtime="20180510 15:06:49.532"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<msg timestamp="20180510 15:06:49.534" level="DEBUG">Closing browser with session id 2b024c936cba71a7c8d0cada16c9fc10.</msg>
+<msg timestamp="20180510 15:06:49.534" level="DEBUG">DELETE http://127.0.0.1:3489/session/2b024c936cba71a7c8d0cada16c9fc10 {"sessionId": "2b024c936cba71a7c8d0cada16c9fc10"}</msg>
+<msg timestamp="20180510 15:06:49.563" level="DEBUG">Finished Request</msg>
+<status status="PASS" starttime="20180510 15:06:49.533" endtime="20180510 15:06:52.611"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:49.533" endtime="20180510 15:06:52.621"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20180510 15:06:30.868" endtime="20180510 15:06:52.621" critical="yes"></status>
+</test>
+<kw name="Cleanup Testing Data" library="Common" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am cleaning up the test data.</arg>
+</arguments>
+<msg timestamp="20180510 15:06:52.631" level="INFO">I am cleaning up the test data.</msg>
+<status status="PASS" starttime="20180510 15:06:52.631" endtime="20180510 15:06:52.631"></status>
+</kw>
+<status status="PASS" starttime="20180510 15:06:52.631" endtime="20180510 15:06:52.631"></status>
+</kw>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" starttime="20180510 15:06:30.319" endtime="20180510 15:06:52.631"></status>
+</suite>
+<status status="PASS" starttime="20180510 15:06:30.314" endtime="20180510 15:06:52.631"></status>
+</suite>
+<status status="PASS" starttime="20180510 15:06:30.309" endtime="20180510 15:06:52.631"></status>
+</suite>
+<status status="PASS" starttime="20180510 15:06:30.246" endtime="20180510 15:06:52.632"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SampleRobotProj">SampleRobotProj</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Tests">SampleRobotProj.Tests</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="AmazonTests">SampleRobotProj.Tests.AmazonTests</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1" name="AmazonTest">SampleRobotProj.Tests.AmazonTests.AmazonTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

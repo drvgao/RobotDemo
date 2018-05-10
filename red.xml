@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>1</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="customAuthenticator" path="SampleRobotProj/tests"/>
+    <referencedLibrary type="PYTHON" name="requests" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary.RequestsKeywords" path="SampleRobotProj/Resources/RequestsLibrary"/>
+    <referencedLibrary type="PYTHON" name="RequestsKeywords" path="SampleRobotProj/Resources"/>
+    <pythonpath>
+        <path location="Resources"/>
+        <path location="SampleRobotProj/Resources"/>
+    </pythonpath>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
+    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
+    <isLibrariesAutoDiscoveringSummaryWindowEnabled>false</isLibrariesAutoDiscoveringSummaryWindowEnabled>
+</projectConfiguration>

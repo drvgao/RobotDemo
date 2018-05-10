@@ -1,0 +1,14 @@
+1525867276609	geckodriver	INFO	geckodriver 0.20.0
+1525867276682	geckodriver	INFO	Listening on 127.0.0.1:58928
+1525867279957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rdurgam\\AppData\\Local\\Temp\\rust_mozprofile.MaJMy7caNutK"
+1525867281328	Marionette	INFO	Enabled via --marionette
+1525867283028	Marionette	INFO	Listening on port 58939
+1525867283180	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\rdurgam\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rdurgam\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11320, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rdurgam\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
