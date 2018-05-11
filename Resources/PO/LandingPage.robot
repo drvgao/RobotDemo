@@ -1,9 +1,13 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+*** Variables ***
+${URL} =    http://www.amazon.com
+${AMAZON_PG_TITLE} =    Your Amazon.com
+
 *** Keywords ***
 Load
-    Go To  http://www.amazon.com
+    Go To  ${URL}
 
 Verify Page Loaded
-    Wait Until Page Contains  Your Amazon.com
+    Wait Until Page Contains  ${AMAZON_PG_TITLE}
