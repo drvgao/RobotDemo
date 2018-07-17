@@ -8,6 +8,9 @@
     <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
     <referencedLibrary type="PYTHON" name="RequestsLibrary.RequestsKeywords" path="SampleRobotProj/Resources/RequestsLibrary"/>
     <referencedLibrary type="PYTHON" name="RequestsKeywords" path="SampleRobotProj/Resources"/>
+    <referencedLibrary type="PYTHON" name="CustomLib" path="C:/Users/rdurgam/git/SampleRobotProj/SampleRobotProj/Resources/CustomLib"/>
+    <referencedLibrary type="PYTHON" name="FakerLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="REST" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
     <pythonpath>
         <path location="Resources"/>
         <path location="SampleRobotProj/Resources"/>

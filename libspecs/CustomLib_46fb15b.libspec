@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec name="CustomLib" type="library" format="ROBOT" generated="20180514 14:54:26">
+<version></version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for test library ``CustomLib``.</doc>
+<kw name="Do Something Special">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+</keywordspec>

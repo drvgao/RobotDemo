@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keywordspec name="XML" type="library" format="ROBOT" generated="20180413 09:42:56">
-<version>3.0.3</version>
+<keywordspec name="XML" type="library" format="ROBOT" generated="20180522 18:19:21">
+<version>3.0.4</version>
 <scope>global</scope>
 <namedargs>yes</namedargs>
 <doc>Robot Framework test library for verifying and modifying XML documents.

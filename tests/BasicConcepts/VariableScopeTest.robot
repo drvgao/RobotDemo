@@ -12,4 +12,4 @@ Resource  ../../Resources/GlobalVariables/scope.robot
 Create and log a variable
     ${var1} =  Set Variable  some value
     Log  ${var1}
-    Log  ${GLOBAL_VAR1} printed global value?
+    Log  ${LIST_VAR} printed global value?
