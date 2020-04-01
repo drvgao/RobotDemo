@@ -26,16 +26,4 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>libspecs/Collections.py</name>
-			<type>1</type>
-			<location>C:/rdev/robotprojs/robotenv/lib/site-packages/robot/libraries/Collections.py</location>
-		</link>
-		<link>
-			<name>libspecs/SeleniumLibrary.py</name>
-			<type>1</type>
-			<location>C:/rdev/robotprojs/robotenv/Lib/site-packages/SeleniumLibrary/__init__.py</location>
-		</link>
-	</linkedResources>
 </projectDescription>
