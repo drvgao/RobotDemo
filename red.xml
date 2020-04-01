@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <projectConfiguration>
-    <configVersion>1</configVersion>
+    <configVersion>2</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
-    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
-    <referencedLibrary type="PYTHON" name="customAuthenticator" path="SampleRobotProj/tests"/>
-    <referencedLibrary type="PYTHON" name="requests" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
-    <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
-    <referencedLibrary type="PYTHON" name="RequestsLibrary.RequestsKeywords" path="SampleRobotProj/Resources/RequestsLibrary"/>
-    <referencedLibrary type="PYTHON" name="RequestsKeywords" path="SampleRobotProj/Resources"/>
-    <referencedLibrary type="PYTHON" name="CustomLib" path="C:/Users/rdurgam/git/SampleRobotProj/SampleRobotProj/Resources/CustomLib"/>
-    <referencedLibrary type="PYTHON" name="FakerLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
-    <referencedLibrary type="PYTHON" name="REST" path="C:/rdev/robotprojs/robotenv/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages/SeleniumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="customAuthenticator" path="SampleRobotProj/tests/customAuthenticator.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="requests" path="C:/rdev/robotprojs/robotenv/Lib/site-packages/requests/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary.RequestsKeywords" path="SampleRobotProj/Resources/RequestsLibrary" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RequestsKeywords" path="SampleRobotProj/Resources/RequestsKeywords.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="FakerLibrary" path="C:/rdev/robotprojs/robotenv/Lib/site-packages" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="REST" path="C:/rdev/robotprojs/robotenv/Lib/site-packages/REST/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ExtendedVariables" path="C:/Users/rdurgam/git/RobotDemo/src/demo" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ClassDemo" path="C:/Users/rdurgam/git/RobotDemo/src/demo/ClassDemo.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CustomLib" path="C:/Users/rdurgam/git/RobotDemo/Resources/CustomLib/CustomLib.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="LibraryInstance" path="SampleRobotProj/tests/Builtin/LibraryInstance.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="MyLibrary" path="SampleRobotProj/tests/TestLibraries/MyLibrary.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="MyDocLibrary" path="SampleRobotProj/tests/TestLibraries/MyDocLibrary.py" dynamic="false"/>
     <pythonpath>
-        <path location="Resources"/>
         <path location="SampleRobotProj/Resources"/>
     </pythonpath>
     <classpath/>
     <excludedForValidation/>
     <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
     <validatedFileMaxSize>1024</validatedFileMaxSize>
-    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
-    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
-    <isLibrariesAutoDiscoveringSummaryWindowEnabled>false</isLibrariesAutoDiscoveringSummaryWindowEnabled>
 </projectConfiguration>

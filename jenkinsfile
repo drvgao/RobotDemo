@@ -1,0 +1,16 @@
+pipeline {
+	agent any
+        stages {
+               stage('Test') {
+                       steps {
+                               sh 'robot -d Results/ tests/'
+                               sh 'exit 0'
+                         }
+                 }
+         post {
+                 always {
+                        robot outputPath: 'Results/'
+                        influxDbPublisher selectedTarget: 'myDb'
+                  }
+           }
+   }

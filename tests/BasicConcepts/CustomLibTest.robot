@@ -1,5 +1,5 @@
 *** Settings ***
-Library  ../../Resources/CustomLib/CustomLib.py    
+Library  ../../Resources/CustomLib/CustomLib.py        
 
 *** Test Cases ***
 # http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#for-loops
