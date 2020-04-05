@@ -8,6 +8,12 @@ pipeline {
         }
 
       }
+      post {
+                 always {
+                        robot outputPath: 'C:\Users\rdurgam\git\RobotDemo\tests\BasicConcepts\'
+                        influxDbPublisher selectedTarget: 'myDb'
+                  }
+           }	
     }
 
   }
